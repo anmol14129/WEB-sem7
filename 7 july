@@ -1,0 +1,42 @@
+let userData = [
+  { firstName: "Punal", age: 20 },
+  { firstName: "kashish", age: 28 },
+  { firstName: "Riya", age: 23 },
+  { firstName: "raj", age: 16 }
+];
+
+// Filter and map in one chain
+let names = userData
+  .filter(user => user.age > 20)
+  .map(user => user.firstName);
+
+console.log(names);
+
+
+
+
+//promises
+const myPromise=new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve("csd got the placemnet");
+    },3000);
+});
+
+const data=myPromise
+.then((res)=>console.log(res))
+.then(()=>setTimeout(()=>{
+    console.log("Prumal got 1 cr")
+},2000))
+.then(()=>setTimeout(()=>{
+    console.log("Prunal working 9-5")
+},4000))
+.then(()=>setTimeout(()=>{
+    console.log("Layoff")
+},2000))
+.catch((err)=>console.log(err));
+console.log(data);
+
+
+
+
+
