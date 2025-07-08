@@ -58,3 +58,13 @@ const student2={
 }
 
 assignmentsubmissiondata.call(student1.studenname,student1.batchno)
+
+
+
+
+
+
+/////////////////////// call      //////     bind    //////     apply
+call- immediatey ,pass normal arguments
+apply-immediately invoked,pass array arguments
+bind-call the function and pass the argumnents normally
