@@ -36,3 +36,25 @@ async function apidata(){
     }
 }
 
+
+
+
+
+
+//////////////////////////////////--- > call()   <--------------------------------------------------------------------------------------------
+//calll()
+
+function assignmentsubmissiondata(studentname,batchno){
+    console.log(`Student name:${studentname} from batch ${batchNo}`){
+    }
+}
+const student1={
+    studentname:'Rachit',
+    bacthno:"g6"
+}
+const student2={
+    studentname:'Ram',
+    bacthno:"g5"
+}
+
+assignmentsubmissiondata.call(student1.studenname,student1.batchno)
