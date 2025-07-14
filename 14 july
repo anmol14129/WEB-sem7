@@ -1,0 +1,8 @@
+console.log("Script Start");
+
+
+const search Input=document.getElementById("searchinput");
+
+searchInput.addEventListener("input",(event)=>{
+  console.log(("INPUT WORD: ",event.target.value)
+})
