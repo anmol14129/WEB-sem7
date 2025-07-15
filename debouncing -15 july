@@ -1,0 +1,21 @@
+// what is debouncing ?
+// to give delay for function to execute
+// to make search bar
+// example -searchbar   we have suggestions like shoes in this shoes is calling 5 calls and after that we write nike then its making call for shoes_nike this is calling 9 calls
+
+
+
+
+// data hiding and encapsulation ----closures
+
+
+console.log("Script start");
+let timeout;
+cosnt searchinput=document.getElemenetById("searchinput");
+searchinput.addEventListener("input",(event)=>{
+    clearTimeout(timeout);      ///this statement reduces the call from 9 to 2 
+    setTimeoUt(()=>{
+        console.log("Event:",event.target.value)
+    },2000)
+    console.log(timeout)
+})
